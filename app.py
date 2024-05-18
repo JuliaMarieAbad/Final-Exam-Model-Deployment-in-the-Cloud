@@ -27,6 +27,18 @@ def predict(image):
     predicted_class = class_names[int(np.round(prediction[0]))]
     return predicted_class
 
+st.markdown(
+    """
+    <style>
+    .reportview-container {
+        background: url('images.jpg') no-repeat center center;
+        background-size: cover;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 st.title("Cat and Dog Image Classification App")
 uploaded_file = st.file_uploader("Please choose an image:  ", type="jpg")
 

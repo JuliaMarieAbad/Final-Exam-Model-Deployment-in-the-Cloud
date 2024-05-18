@@ -27,17 +27,17 @@ def predict(image):
     predicted_class = class_names[int(np.round(prediction[0]))]
     return predicted_class
 
-st.markdown(
-    """
-    <style>
-    body {
-        background-image: url('paw.jpg');
-        background-size: cover;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+background = """
+<style>
+body {
+    background-image: url("https://example.com/path-to-paw.jpg");
+    background-size: cover;
+}
+</style>
+"""
+
+st.markdown(background, unsafe_allow_html=True)
+
 st.title("Cat and Dog Image Classification App")
 uploaded_file = st.file_uploader("Please choose an image:  ", type="jpg")
 

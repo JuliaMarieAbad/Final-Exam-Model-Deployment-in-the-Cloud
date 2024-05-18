@@ -35,9 +35,7 @@ body {
 }
 </style>
 """
-
 st.markdown(background, unsafe_allow_html=True)
-
 st.title("Cat and Dog Image Classification App")
 uploaded_file = st.file_uploader("Please choose an image:  ", type="jpg")
 

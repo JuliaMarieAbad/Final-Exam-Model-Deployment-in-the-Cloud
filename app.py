@@ -30,7 +30,7 @@ def predict(image):
 background = """
 <style>
 body {
-    background-image: url("https://example.com/path-to-paw.jpg");
+    background-image: url("paw.jpg");
     background-size: cover;
 }
 </style>

@@ -30,7 +30,7 @@ def predict(image):
 background = """
 <style>
 body {
-    background-image: url("https://static.vecteezy.com/system/resources/previews/026/180/683/original/dog-paw-cat-paw-heart-love-puppy-foot-print-kitten-seamless-pattern-wallpaper-background-good-for-textile-fabric-zoo-shops-advertising-wrapping-paper-free-vector.jpg");
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fimages%2Fdog-paw-seamless-pattern-vector-cat-paw-foot-print-isolated-wallpaper-background-backdrop-brown%2F195124069&psig=AOvVaw2th27FWAXLnVY7M1GLCNX1&ust=1716138021439000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLiMrL3Wl4YDFQAAAAAdAAAAABAZ");
     background-size: cover;
 }
 </style>

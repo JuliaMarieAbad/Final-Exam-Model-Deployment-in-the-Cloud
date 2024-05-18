@@ -30,15 +30,14 @@ def predict(image):
 st.markdown(
     """
     <style>
-    .reportview-container {
-        background: url('images.jpg') no-repeat center center;
+    body {
+        background-image: url('paw.jpg');
         background-size: cover;
     }
     </style>
     """,
     unsafe_allow_html=True
 )
-
 st.title("Cat and Dog Image Classification App")
 uploaded_file = st.file_uploader("Please choose an image:  ", type="jpg")
 
